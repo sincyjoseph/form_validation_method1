@@ -1,0 +1,46 @@
+form label {
+display: inline-block;
+width: 100px;
+}
+form div {
+margin-bottom: 10px;
+}
+.error {
+color: red;
+margin-left: 5px;
+}
+label.error {
+display: inline;
+}
+
+body {
+  margin: 20px 0;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 1.25rem;
+  width: 300px;
+}
+
+form{
+  margin: 20px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: 'Lato';
+  width: 500px;
+  margin-top: 10px;
+}
+
+[type="submit"], [type="reset"], button, html [type="button"] {
+    margin-left: 0;
+    border-radius: 0;
+    background: rgb(122, 102, 197);
+    color: white;
+    border: none;
+    font-weight: 300;
+    padding: 10px 0;
+    line-height: 1;
+}
