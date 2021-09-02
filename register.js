@@ -21,7 +21,7 @@ $(document).ready(function() {
         e.preventDefault();
       }
       if (password.length < 8) {
-        $('#password').after('<span class="error">Password must be at least 8 characters long</span>');
+        $('#password').after('<span class="error">Password must be 8 characters long</span>');
         e.preventDefault();
       }
     });

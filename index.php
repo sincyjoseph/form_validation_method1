@@ -25,6 +25,10 @@
     <input type="email" id="email" name="email"></input>
   </div>
   <div>
+      <label for="message">Message</label>
+			<textarea id="message" name="message"></textarea>
+		</div>
+  <div>
     <label for="password">Password:</label>
     <input type="password" id="password" name="password"></input>
   </div>
